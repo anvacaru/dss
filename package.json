@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/makerdao/dss#readme",
   "dependencies": {
-    "truffle": "^5.0.0"
+    "truffle": "^5.1.50",
+    "truffle-resolver": "^5.0.16"
   }
 }
