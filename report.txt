@@ -1,0 +1,231 @@
+Using network 'development'.
+
+
+Compiling your contracts...
+===========================
+> Compiling ./test/dai.t.sol
+> Compiling ./test/end.t.sol
+> Compiling ./test/flap.t.sol
+> Compiling ./test/flip.t.sol
+> Compiling ./test/flop.t.sol
+> Compiling ./test/fork.t.sol
+> Compiling ./test/jug.t.sol
+> Compiling ./test/pot.t.sol
+> Compiling ./test/vat.t.sol
+> Compiling ./test/vow.t.sol
+> Compilation warnings encountered:
+
+    /home/anvacaru/rv/dss/src/vat.sol:98:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function add(uint x, int y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:113:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function add(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:108:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function mul(uint x, int y) internal pure returns (int z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:119:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function mul(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:103:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function sub(uint x, int y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:116:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function sub(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:98:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function add(uint x, int y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:113:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function add(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:108:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function mul(uint x, int y) internal pure returns (int z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:119:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function mul(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:103:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function sub(uint x, int y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:116:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function sub(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:98:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function add(uint x, int y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:113:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function add(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:108:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function mul(uint x, int y) internal pure returns (int z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:119:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function mul(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:103:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function sub(uint x, int y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/vat.sol:116:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function sub(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/pot.sol:111:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function add(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/pot.sol:119:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function mul(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/pot.sol:115:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function sub(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+,/home/anvacaru/rv/dss/src/jug.sol:84:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function add(uint x, uint y) internal pure returns (uint z) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+> Artifacts written to /tmp/test--35124-2Z30RUOzPgaD
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+> Duplicate contract names found for Hevm.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Hevm.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Guy.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Hevm.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Gal.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Guy.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Hevm.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Usr.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Hevm.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Hevm.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Hevm.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Usr.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Hevm.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+[0m[0m
+[0m  DaiTest[0m
+  [31m  1) "before all" hook: prepare suite for "testSetupPrecondition"[0m
+
+[0m  EndTest[0m
+  [31m  2) "before all" hook: prepare suite for "test_cage_basic"[0m
+
+[0m  FlapTest[0m
+  [31m  3) "before all" hook: prepare suite for "test_kick"[0m
+
+[0m  FlopTest[0m
+  [31m  4) "before all" hook: prepare suite for "test_kick"[0m
+
+[0m  ForkTest[0m
+  [31m  5) "before all" hook: prepare suite for "test_fork_to_self"[0m
+
+[0m  JugTest[0m
+  [31m  6) "before all" hook: prepare suite for "test_drip_setup"[0m
+
+[0m  DSRTest[0m
+  [31m  7) "before all" hook: prepare suite for "test_save_0d"[0m
+
+[0m  BiteTest[0m
+  [31m  8) "before all" hook: prepare suite for "test_set_dunk_multiple_ilks"[0m
+
+
+[92m [0m[32m 0 passing[0m[90m (8s)[0m
+[31m  8 failing[0m
+
+[0m  1) DaiTest
+       "before all" hook: prepare suite for "testSetupPrecondition":
+[0m[31m     CompileError: truffle/DeployedAddresses.sol:8:16: ParserError: Expected '(' but got '.'
+  function auth.t() public pure returns (address payable) { revert(); }
+               ^
+
+[31mCompilation failed. See above.[39m[0m[90m
+      at run (node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:51:1)
+[0m
+[0m  2) EndTest
+       "before all" hook: prepare suite for "test_cage_basic":
+[0m[31m     CompileError: truffle/DeployedAddresses.sol:8:16: ParserError: Expected '(' but got '.'
+  function auth.t() public pure returns (address payable) { revert(); }
+               ^
+
+[31mCompilation failed. See above.[39m[0m[90m
+      at run (node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:51:1)
+[0m
+[0m  3) FlapTest
+       "before all" hook: prepare suite for "test_kick":
+[0m[31m     CompileError: truffle/DeployedAddresses.sol:8:16: ParserError: Expected '(' but got '.'
+  function auth.t() public pure returns (address payable) { revert(); }
+               ^
+
+[31mCompilation failed. See above.[39m[0m[90m
+      at run (node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:51:1)
+[0m
+[0m  4) FlopTest
+       "before all" hook: prepare suite for "test_kick":
+[0m[31m     CompileError: truffle/DeployedAddresses.sol:8:16: ParserError: Expected '(' but got '.'
+  function auth.t() public pure returns (address payable) { revert(); }
+               ^
+
+[31mCompilation failed. See above.[39m[0m[90m
+      at run (node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:51:1)
+[0m
+[0m  5) ForkTest
+       "before all" hook: prepare suite for "test_fork_to_self":
+[0m[31m     CompileError: truffle/DeployedAddresses.sol:8:16: ParserError: Expected '(' but got '.'
+  function auth.t() public pure returns (address payable) { revert(); }
+               ^
+
+[31mCompilation failed. See above.[39m[0m[90m
+      at run (node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:51:1)
+[0m
+[0m  6) JugTest
+       "before all" hook: prepare suite for "test_drip_setup":
+[0m[31m     CompileError: truffle/DeployedAddresses.sol:8:16: ParserError: Expected '(' but got '.'
+  function auth.t() public pure returns (address payable) { revert(); }
+               ^
+
+[31mCompilation failed. See above.[39m[0m[90m
+      at run (node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:51:1)
+[0m
+[0m  7) DSRTest
+       "before all" hook: prepare suite for "test_save_0d":
+[0m[31m     CompileError: truffle/DeployedAddresses.sol:8:16: ParserError: Expected '(' but got '.'
+  function auth.t() public pure returns (address payable) { revert(); }
+               ^
+
+[31mCompilation failed. See above.[39m[0m[90m
+      at run (node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:51:1)
+[0m
+[0m  8) BiteTest
+       "before all" hook: prepare suite for "test_set_dunk_multiple_ilks":
+[0m[31m     CompileError: truffle/DeployedAddresses.sol:8:16: ParserError: Expected '(' but got '.'
+  function auth.t() public pure returns (address payable) { revert(); }
+               ^
+
+[31mCompilation failed. See above.[39m[0m[90m
+      at run (node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:51:1)
+[0m
+
+

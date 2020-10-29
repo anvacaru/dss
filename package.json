@@ -1,0 +1,26 @@
+{
+  "name": "dss",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.com/makerdao/dss.svg?branch=master)](https://travis-ci.com/makerdao/dss) [![codecov](https://codecov.io/gh/makerdao/dss/branch/master/graph/badge.svg)](https://codecov.io/gh/makerdao/dss)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makerdao/dss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makerdao/dss/issues"
+  },
+  "homepage": "https://github.com/makerdao/dss#readme",
+  "dependencies": {
+    "truffle": "^5.0.0"
+  }
+}
